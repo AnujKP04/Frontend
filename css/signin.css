@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top,#2980B9,#6DD5FA,#FFFFFF);
+    background-size: 100% 730px;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 27%;
+    min-height: 300px;
+    border: 1px solid black;
+    margin: 60px auto;
+    background-color: rgb(240, 246, 246);
+}
+.header{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 60px;
+}
+.header h1{
+    padding: 4%;
+    text-align: center;
+    letter-spacing: .3vmax;
+    font-size: 3.5vmax;
+}
+hr{
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.radio-button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.radio-std{
+    margin-right: 20px;
+    font-size: 1.4em;
+}
+.radio-trainee{
+    font-size: 1.4em;
+}
+
+.details{
+    margin-top: 30px;
+    text-align: center;
+}
+input[type=text]{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+input[type=email]
+{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.country-select{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding-left: 10px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+input[type=date]{
+    width: 40%;
+    height: 30px;
+    margin-right: 9.4%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding-left: 10px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+input[type=password]
+{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.check-box{
+    width: 80%;
+    margin: auto;
+    font-size: 0.8em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.submit{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input[type=submit]{
+    padding: 10px;
+    width: 40%;
+    font-size: 1.1vmax;
+    border-radius: 15px;
+    border: 1px solid black;
+    
+}
+input[type=submit]:hover{
+    background-color: aqua;
+}
+.back{
+    width: 100%;
+    
+    margin-bottom: 10px;
+    text-align: right;
+}
+.back a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.1em;
+    margin-right: 10%;
+}

@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sigh In</title>
+    <link rel="stylesheet" href="css/signin.css">
 </head>
+
 <body>
-    sigh in page
+    <div class="box">
+        <div class="header">
+            <h1>Sign Up</h1>
+        </div>
+        <hr>
+        <form action="Template.html" method="">
+            <div class="radio-button">
+
+                <input type="radio" id="std" name="radio-check" required>
+                <label for="std" class="radio-std">Student</label>
+                <input type="radio" id="trainee" name="radio-check" required>
+                <label for="trainee" class="radio-trainee">Trainee</label>
+
+            </div>
+            <hr>
+            <div class="details">
+                <label for="uname"></label>
+                <input type="text" id="uname" placeholder="Enter Username" required>
+
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Enter Email" required>
+
+                <label for="phone"></label>
+                <input type="text" id="phone" placeholder="Enter Mobile no" required>
+
+                <label for="birth"></label>
+                <input type="date" id="birth" min="1970-01-01" max="2010-01-01" required>
+
+
+                <label for="country">
+                    <select class="country-select" required>
+                        <option hidden value="Select" >Select Country</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Nepal">Nepal</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                </label>
+
+                <label for="pass"></label>
+                <input type="password" id="pass" placeholder="Enter Password" required>
+
+            </div>
+            <div class="check-box">
+                <input type="checkbox" id="check" required>
+                <label for="check">BY CLICKING TO ACCEPT THE TERMS FOUND IN THE PRIVACY POLICY AND TERMS AND
+                    CONDITIONS</label>
+
+            </div>
+            <div class="submit">
+                <input type="submit" value="Create Account">
+            </div>
+        </form>
+        <div class="back">
+            <a href="login.html">Go Back</a>
+        </div>
+    </div>
 </body>
+
 </html>
